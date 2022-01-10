@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgb(212, 219, 221), rgb(130, 194, 58));
+    min-height: 100vh;
+}
+
+header,
+form {
+    font-size: 1.5rem;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    background: #fff;
+}
+
+form button {
+    color: #060827;
+    background: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #060827;
+    color: #fff;
+}
