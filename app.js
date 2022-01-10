@@ -5,14 +5,16 @@ const todoButton = document.querySelector('.todo-button');
 
 const todoList = document.querySelector('.todo-list');
 
-console.log(todoInput);
+console.log(todoButton);
 
 //evento de escutas
+todoButton.addEventListener('click', addTodo);
+todoList.addEventListener('click', deleteAndCheck);
 
-todoButton.addEventListener('click', addTodo)
 
 
 //funcoes
+//adicionar tarefa
 function addTodo(event) {
     event.preventDefault()
 
@@ -21,7 +23,10 @@ function addTodo(event) {
 
     const todoLi = document.createElement('Li');
     todoLi.classList.add('todo-list');
-    todoLi.innerText = 'Rafael Mavili';
+    todoLi.innerText = todoInput.value;
+
+    //limpar input depois de criar tarefa
+    todoInput.value = '';
 
     todoDiv.appendChild(todoLi);
 
@@ -32,8 +37,26 @@ function addTodo(event) {
 
     const trashButton = document.createElement('button');
     trashButton.innerHTML = '<i class="fas fa-trash"></i>';
-    trashButton.classList.add('completed-btn');
+    trashButton.classList.add('trash-btn');
     todoDiv.appendChild(trashButton);
 
     todoList.appendChild(todoDiv);
+}
+//deletar e fazer checagem de tarefa
+
+function deleteAndCheck(e) {
+    console.log(e.target)
+    const item = e.target;
+    const todo = item.parentElement
+
+    if (item.classList[0] === 'trash-btn') {
+        todo.classList.add('fall');
+        todo.addEventListener('transitionend', () => {
+            todo.remove();
+        })
+    }
+    //retorna as class q o objeto tem
+    if (item.classList[0] === 'completed-btn') {
+        todo.classList.toggle('completed')
+    }
 }
