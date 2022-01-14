@@ -24,7 +24,10 @@
 
   ##
 <div>
-  <a href="https://www.linkedin.com/in//" target="_blank"><img src="https://img.shields.io/badge/--%230077B5?style=for-the-badge&logo=linkedin&logoColor=black" target="_blank"></a>
+ 
+   <a href="https://www.linkedin.com/in/rafael-mavili-22543522b/" target="_blank"><img src="https://img.shields.io/badge/-rafaelmavili-%22543522b?style=for-the-badge&logo=linkedin&logoColor=black" target="_blank"></a>
+ 
+
   <a href="https://www.instagram.com//" target="_blank"><img src="https://img.shields.io/badge/--%23E4405F?style=for-the-badge&logo=instagram&logoColor=black" target="_blank"></a>
  
   <a href="https://twitter.com/" target="_blank"><img src="https://img.shields.io/badge/-%230077B5?style=for-the-badge&logo=twitter&logoColor=black" target="_blank"></a>
