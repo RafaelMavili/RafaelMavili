@@ -23,8 +23,8 @@
   ##
 <div>
    <a href="https://www.linkedin.com/in/rafael-mavili-22543522b/" target="_blank"><img src="https://img.shields.io/badge/-rafaelmavili-%22543522b?style=for-the-badge&logo=linkedin&logoColor=black" target="_blank"></a> 
-<a href="https://www.instagram.com/rmavili14/" target="_blank"><img src="https://img.shields.io/badge/-RafaelMavili-%23E4405F?style=for-the-badge&logo=instagram&logoColor=black" target="_blank"></a>
-  <a href="https://twitter.com/RafaelMavili" target="_blank"><img src="https://img.shields.io/badge/RafaelMavili-%230077B5?style=for-the-badge&logo=twitter&logoColor=black" target="_blank"></a>
+   <a href="https://www.instagram.com/rmavili14/" target="_blank"><img src="https://img.shields.io/badge/-RafaelMavili-%23E4405F?style=for-the-badge&logo=instagram&logoColor=black" target="_blank"></a>
+   <a href="https://twitter.com/RafaelMavili" target="_blank"><img src="https://img.shields.io/badge/RafaelMavili-%230077B5?style=for-the-badge&logo=twitter&logoColor=black" target="_blank"></a>
  
   ![Snake animation](https://github.com/Inglaciela/Inglaciela/blob/output/github-contribution-grid-snake.svg) 
 </div>  
